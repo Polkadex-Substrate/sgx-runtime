@@ -16,7 +16,7 @@ log = { git = "https://github.com/mesalock-linux/log-sgx" }
 log = { git = "https://github.com/mesalock-linux/log-sgx" }
 sp-io = { path = "substrate-sgx/sp-io", default-features = false, features = ["disable_oom", "disable_panic_handler", "disable_allocator", "sgx"]}
 
-[patch."https://github.com/scs/sgx-runtime"]
+[patch."https://github.com/Polkadex-Substrate/sgx-runtime"]
 sgx-runtime = { path = "runtime", default-features = false}
 sp-io = { path = "substrate-sgx/sp-io", default-features = false, features = ["disable_oom", "disable_panic_handler", "disable_allocator", "sgx"]}
 sgx-externalities = { path = "substrate-sgx/externalities", default-features = false}
