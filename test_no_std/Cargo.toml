@@ -33,6 +33,6 @@ features = ["full_crypto"]
 
 [dependencies.sp-core]
 git = "https://github.com/paritytech/substrate.git"
-branch = "master"
+tag = "monthly-2021-08"
 default-features = false
 features = ["full_crypto"]
