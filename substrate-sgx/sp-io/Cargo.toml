@@ -21,15 +21,15 @@ sgx_log       = { package = "log", git = "https://github.com/mesalock-linux/log-
 sgx-externalities = { default-features = false, path = "../externalities", optional = true }
 
 # Substrate dependencies
-sp-std = { tag = "monthly-2021-09+1", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
-sp-core = { tag = "monthly-2021-09+1", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", features=["full_crypto"] }
-sp-state-machine = { tag = "monthly-2021-09+1", version = "0.10.0-dev", git = "https://github.com/paritytech/substrate.git", optional = true}
-sp-runtime-interface = { tag = "monthly-2021-09+1", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
-sp-wasm-interface = { tag = "monthly-2021-09+1", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
-sp-tracing = { tag = "monthly-2021-09+1", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
-sp-trie = { tag = "monthly-2021-09+1", version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", optional = true }
-sp-keystore = {  tag = "monthly-2021-09+1", version = "0.10.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", optional = true }
-sp-externalities = { tag = "monthly-2021-09+1", version = "0.10.0-dev", git = "https://github.com/paritytech/substrate.git", optional = true }
+sp-std = { branch = "master", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
+sp-core = { branch = "master", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", features=["full_crypto"] }
+sp-state-machine = { branch = "master", version = "0.10.0-dev", git = "https://github.com/paritytech/substrate.git", optional = true}
+sp-runtime-interface = { branch = "master", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
+sp-wasm-interface = { branch = "master", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
+sp-tracing = { branch = "master", version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git" }
+sp-trie = { branch = "master", version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", optional = true }
+sp-keystore = {  branch = "master", version = "0.10.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", optional = true }
+sp-externalities = { branch = "master", version = "0.10.0-dev", git = "https://github.com/paritytech/substrate.git", optional = true }
 
 
 [features]
